@@ -1,0 +1,28 @@
+html {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line1 {
+  display: flex;
+}
+.line2 {
+  display: flex;
+}
+.line3 {
+  display: flex;
+}
+.line4 {
+  display: flex;
+}
+.viewer {
+  color: red;
+}
+h1 {
+  color: green;
+}
+.id {
+  display: flex;
+}

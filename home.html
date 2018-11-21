@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<h1> calculator </h1>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="style/coco.css"/>
+
+</head>
+<body>
+<div id="calculator" class="calculator">
+
+
+
+    <p><input type="text" value="" disabled="disabled" id="resultat">
+        <button id="supp" value="<-" onclick="supp()" style="width:130px">c</button></p>
+    </div>
+   <div id="line1">
+    <button id="sept" value="7" onclick="sept()" style="width:130px">7</button>
+    <button id="huit" value="8" onclick="huit()" style="width:130px">8</button>
+    <button id="neuf" value="9" onclick="neuf()" style="width:130px">9</button>
+    <button value="+" id="plus" onclick="plus()" style="width:130px">+</button>
+  </div>
+   <div id="line2">
+    <button id="quatre" value="4" onclick="quatre()" style="width:130px">4</button>
+    <button id="cinq" value="5" onclick="cinq()" style="width:130px">5</button>
+    <button id="six" value="6" onclick="six()" style="width:130px">6</button>
+    <button value="-" id="moin" onclick="moin()" style="width:130px">-</button>
+  </div>
+   <div id="line3">
+    <button id="un" value="1" onclick="un()" style="width:130px">1</button>
+    <button id="deux" value="2" onclick="deux()" style="width:130px">2</button>
+    <button id="trois" value="3" onclick="trois()" style="width:130px">3</button>
+    <button value="*" id="multiple" onclick="multiple()" style="width:130px">*</button>
+  </div>
+  <div id="line4">
+    <button id="zero" value="0" onclick="zero()" style="width:130px">0</button>
+    <button class="num" data-num="." style="width:130px">.</button>
+    <button id="egal"  value="=" onclick="egal()" style="width:130px">=</button>
+    <button id="divised" value="/" onclick="divised()" style="width:130px">/</button>
+    
+    </div>
+</div>
+      <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
